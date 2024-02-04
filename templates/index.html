@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block header %}
+<header class="header">
+  <article class="content">
+    <h1 class="txt-page-title txt-white marg-b-small" data-component="Title">Website vulnerability scanner</h1><br>
+    <p>Is your website armor truly impenetrable? In the ever-evolving landscape of the digital realm, security is not a choice but a necessity. Introducing WeSecure, your digital fortress against threats</p>
+    <a href="search bar.html"><button class="getStarted">Try for Free</button></a>
+  </article>
+  <div class="illustration">
+    <img src=" {% static 'images/illustration-working.webp' %} " alt="">
+  </div>
+</header>
+{% endblock header %}
+{% block content %}
+
+
+<main class="formContainer">
+   
+  <div class="linksContainer">
+  </div>
+  <div class="infoContainer">
+    <h2>Secure Your Future 🛡️</h2><br>
+
+    <p>Vulnerability management is a critical requirement for anyone running web applications or interactive and static websites. These public-facing assets are common attack vectors for malicious actors seeking unauthorized access to systems and data, so it’s important to make sure they’re secured properly with website security checks. You can scan website code and dependencies with wesecure in three steps
+    </p>
+  </div>
+  <div class="boxesContainer">
+    <div class="cards" id="brand">
+      <div class="icon">
+        <img src="" alt="" srcset="">
+      </div>
+      <div class="cardsContent">
+        <h2>1. Create an account</h2>
+        <p>Create a wesecure account and connect your project repsitories.</p>
+      </div>
+    </div>
+    <div class="cards" id="detailed">
+      <div class="icon">
+        <img src="" alt="" srcset="">
+      </div>
+      <div class="cardsContent">
+        <h2>2. Click scan</h2>
+        <p>Enter your website link.</p>
+      </div>
+    </div>
+    <div class="cards" id="custom">
+      <div class="icon">
+        <img src="" alt="" srcset="">
+      </div>
+      <div class="cardsContent">
+        <h2>3. Show results</h2>
+        <p>Review the scan results and make fixes to your website code based on the details of the issues found.</p>
+      </div>
+    </div>
+  </div>
+
+</main>
+{% endblock content %}
